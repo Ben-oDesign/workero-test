@@ -1,0 +1,199 @@
+{
+	"projects" :[
+		{
+			"id" : 1,
+			"code" : "#BLE627",
+			"status" : "IN_PROGRESS",
+			"nb_tasks" : 130,
+			"nb_workers" : 6,
+			"completion" : 51.3
+		},
+		{
+			"id" : 2,
+			"code" : "#BLE566",
+			"status" : "IN_PROGRESS",
+			"nb_tasks" : 130,
+			"nb_workers" : 6,
+			"completion" : 12.9
+		},
+		{
+			"id" : 3,
+			"code" : "#BLE627",
+			"status" : "IN_PROGRESS",
+			"nb_tasks" : 130,
+			"nb_workers" : 6,
+			"completion" : 90.3
+		},
+		{
+			"id" : 4,
+			"code" : "#BLE627",
+			"status" : "IN_PROGRESS",
+			"nb_tasks" : 130,
+			"nb_workers" : 6,
+			"completion" : 78.3
+		}
+	],
+	"tasks" : [
+		{
+			"id" : 1,
+			"project_id" : 1,
+			"type" : "DEVELOPMENT",
+			"label" : "Refonte navigation latérale"
+		},
+		{
+			"id" : 2,
+			"project_id" : 1,
+			"type" : "BUG",
+			"label" : "Paiement refusé sur la version Android"
+		},
+		{
+			"id" : 3,
+			"project_id" : 1,
+			"type" : "DEVELOPMENT",
+			"label" : "Interntionalisation de la plateforme"
+		},
+		{
+			"id" : 4,
+			"project_id" : 1,
+			"type" : "BUG",
+			"label" : "Problème d'affichage tablette"
+		},
+		{
+			"id" : 5,
+			"project_id" : 1,
+			"type" : "BUG",
+			"label" : "FILE NOT FOUND error sur l'écran d'accueil"
+		},
+		{
+			"id" : 6,
+			"project_id" : 1,
+			"type" : "DEVELOPMENT",
+			"label" : "Rajout champs formulaire demande de devis"
+		},
+		{
+			"id" : 7,
+			"project_id" : 1,
+			"type" : "BUG",
+			"label" : "Erreur génération des devis"
+		},
+		{
+			"id" : 8,
+			"project_id" : 1,
+			"type" : "DEVELOPMENT",
+			"label" : "Ajout nouveau template de document"
+		},
+		{
+			"id" : 9,
+			"project_id" : 1,
+			"type" : "DEVELOPMENT",
+			"label" : "Connexion Salesforce"
+		},
+		{
+			"id" : 10,
+			"project_id" : 1,
+			"type" : "BUG",
+			"label" : "Latences dans les réponses de l'API"
+		}
+	],
+	"employees" : [
+		{
+			"id" : 1,
+			"firstname" : "Laurent",
+			"lastname" : "Cartier",
+			"profile_picture" : "https://randomuser.me/api/portraits/men/20.jpg"
+		},
+		{
+			"id" : 2,
+			"firstname" : "Arnaud",
+			"lastname" : "Bichop",
+			"profile_picture" : "https://randomuser.me/api/portraits/men/23.jpg"
+		},
+		{
+			"id" : 3,
+			"firstname" : "Sylvie",
+			"lastname" : "Cartel",
+			"profile_picture" : "https://randomuser.me/api/portraits/women/17.jpg"
+		},
+		{
+			"id" : 4,
+			"firstname" : "Roxanne",
+			"lastname" : "Mournour",
+			"profile_picture" : "https://randomuser.me/api/portraits/women/15.jpg"
+		},
+		{
+			"id" : 5,
+			"firstname" : "Axel",
+			"lastname" : "Routuleri",
+			"profile_picture" : "https://randomuser.me/api/portraits/men/89.jpg"
+		},
+		{
+			"id" : 6,
+			"firstname" : "Maureen",
+			"lastname" : "Bergson",
+			"profile_picture" : "https://randomuser.me/api/portraits/women/33.jpg"
+		},
+		{
+			"id" : 7,
+			"firstname" : "Hugues",
+			"lastname" : "Pourtelle",
+			"profile_picture" : "https://randomuser.me/api/portraits/men/45.jpg"
+		}
+	],
+	"task_affectations" : [
+		{
+			"id" : 1,
+			"task_id" : 1,
+			"employee_id" : 1
+		},
+		{
+			"id" : 2,
+			"task_id" : 1,
+			"employee_id" : 2
+		},
+		{
+			"id" : 3,
+			"task_id" : 1,
+			"employee_id" : 3
+		},
+		{
+			"id" : 4,
+			"task_id" : 2,
+			"employee_id" : 4
+		},
+		{
+			"id" : 5,
+			"task_id" : 2,
+			"employee_id" : 5
+		},
+		{
+			"id" : 6,
+			"task_id" : 3,
+			"employee_id" : 6
+		},
+		{
+			"id" : 7,
+			"task_id" : 4,
+			"employee_id" : 7
+		},
+		{
+			"id" : 8,
+			"task_id" : 5,
+			"employee_id" : 1
+		},
+		{
+			"id" : 9,
+			"task_id" : 5,
+			"employee_id" : 2
+		},
+		{
+			"id" : 10,
+			"task_id" : 5,
+			"employee_id" : 3
+		},
+		{
+			"id" : 11,
+			"task_id" : 6,
+			"employee_id" : 4
+		}
+	]
+}

@@ -1,0 +1,42 @@
+@import "colors";
+
+@mixin list {
+  margin: 0 2rem 4rem 2rem;
+  padding: 0;
+}
+
+@mixin shadow {
+  box-shadow: 0 4px 2px $shadow !important;
+}
+
+@mixin button__icon {
+    background: white !important;
+    border-radius: 4px;
+    padding: 6px;
+    height: fit-content;
+    width: fit-content;
+    @include shadow;
+}
+
+@mixin user_avatar {
+  background: $shadow !important;
+  border-radius: 4px;
+  padding: 6px;
+  height: 36px !important;
+  width: 36px !important;
+  min-width: unset !important;
+}
+
+@mixin title {
+  color: $navyBlue;
+}
+
+@mixin subTitle {
+  font-weight: normal;
+  color: $grey;
+  font-size: large;
+}
+
+@mixin wrapperTitle {
+  margin: 0 16px;
+}
